@@ -1,0 +1,1 @@
+C:\mch_py_310\Scripts\jupyter lab
