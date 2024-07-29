@@ -20,7 +20,7 @@ golden = fibo_ratios.calc_fibo_ratio
 
 print("golden ratio", golden(100), sep=":")
 
-print(__name__)
+print("module name", __name__)
 
 print(sys.path)  # the imported names search path.
 

@@ -9,7 +9,7 @@
 # symbol table by all its functions, so module global variables
 # won't clash with other module's
 
-print(__name__)  # the module name
+print("Name is", __name__)  # the module name
 
 
 def fib(n):  # write fibonacci series up to n
