@@ -1,6 +1,7 @@
 from time import sleep, time
 from functools import wraps
 
+
 def measure(func):
     @wraps(func)
     def wrapper(*args, **kwargs):

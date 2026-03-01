@@ -1,3 +1,4 @@
+
 # decorators/decorators.factory.py
 from functools import wraps
 def max_result(threshold):

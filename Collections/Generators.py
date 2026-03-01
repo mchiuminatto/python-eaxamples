@@ -14,7 +14,7 @@ def gen_license_plates():
             yield f"{letters} {numbers:03}"
 
 
-`def new_registration(owner):
+def new_registration(owner):
     if owner not in registrations:
         plate = next(license_plates)
         registrations[owner] = plate
