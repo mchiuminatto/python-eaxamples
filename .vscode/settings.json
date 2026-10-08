@@ -1,0 +1,12 @@
+{
+    // Theme used only when this folder is open in VS Code (overrides your user setting)
+    "workbench.colorTheme":"Solarized Light",
+
+    // Optional: tint the title/status bars so this window is easy to tell apart
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#1f4e79",
+        "titleBar.activeForeground": "#ffffff",
+        "statusBar.background": "#1f4e79",
+        "statusBar.foreground": "#ffffff"
+    }
+}

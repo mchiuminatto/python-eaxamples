@@ -1,0 +1,19 @@
+[project]
+name = "python-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marcello Chiuminatto", email = "mchiuminatto@gmail.com" }
+]
+requires-python = ">=3.12.0"
+dependencies = [
+    "pyarrow>=25.0.1",
+]
+
+[project.scripts]
+python-examples = "python_examples:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

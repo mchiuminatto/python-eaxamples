@@ -12,7 +12,7 @@ class Assignment(metaclass = abc.ABCMeta):
     @classmethod
     def __subclasshook__(cls, C):
         """
-        Detects if a derived class is a subclass fo this
+        Detects if a derived class is a subclass of this
         abstract one without extending it (duck typing)
 
         :param C:
@@ -31,7 +31,7 @@ class IntroToPython:
 
     def lesson(self):
         return f"""
-             Hello {self.tudent}. define two variables,
+             Hello {self.student}. define two variables,
              an integer named a with value 1
              and a string named b with value 'hello'
          """
