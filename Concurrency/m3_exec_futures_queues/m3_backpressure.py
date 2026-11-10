@@ -28,11 +28,11 @@ def consumer():
     while (item:= q.get()) is not STOP:
         time.sleep(0.1)  # slows down consumer
         q.task_done()
-    q.task_done()
+    q.task_done()  # this one is for the STOP
 
 
-threading.Thread(target=consumer).start()
-producer()
+threading.Thread(target=consumer).start()  # starts the consumer in a different thread
+producer()  # start the producer in the main thread
 q.join()  #  every put matched by a task done
 
 print ("All items processed")

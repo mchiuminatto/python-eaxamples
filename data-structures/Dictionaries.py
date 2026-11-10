@@ -23,3 +23,9 @@ pipCost = dict(EURUSD=10, GBPUSD=10, USDJPY=9, EURGBP=12)
 print(pipCost)
 
 
+print("Test pop in dictioaries")
+
+d1 = {"a": 1, "b": 2}
+
+print(d1.pop("a"))
+print(d1)
